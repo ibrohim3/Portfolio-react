@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function useTheme() {
+export const useTheme = () => {
     const [theme, setTheme] = useState(() => {
         const saved = localStorage.getItem("theme");
         if (saved) return saved;

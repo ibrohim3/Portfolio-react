@@ -1,0 +1,27 @@
+.app-container {
+  min-height: 100vh;
+  transition: background 0.25s ease, color 0.25s ease;
+  position: relative;
+}
+.header-left {
+  position: absolute;
+  right: 25px;
+  top: 15px;
+}
+.card {
+  background: var(--panel);
+  padding: 20px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  margin-top: 16px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.border {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 1rem;
+  transition: background 0.3s, color 0.3s;
+}
